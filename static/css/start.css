@@ -1,0 +1,50 @@
+.hjo{
+	background-image: url(./img/gg.gif);
+	background-attachment: auto;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+	position: fixed;
+	left : 43%;
+	top: 60%;
+}
+
+.button-3d-2{
+  position: relative;
+  background: #1c0382;
+  background: radial-gradient(rgb(40, 218, 218), hsl(223, 77%, 38%));
+  font-size: 2.3rem;
+  text-shadow: 0 -1px 0 #070dc3;
+  color: white;
+  border: 1px solid hsl(247, 100%, 20%);
+  border-radius: 20%;
+  height: 130px;
+  width: 250px;
+  z-index: 4;
+  outline: none;
+
+  box-shadow: inset 0 1px 0 hsl(223, 91%, 50%),
+              0 2px 0 hsl(223, 100%, 46%),
+              0 3px 0 hsl(223, 100%, 40%),
+              0 4px 0 hsl(223, 100%, 36%),
+              0 5px 0 hsl(223, 100%, 32%),
+              0 6px 0 hsl(223, 100%, 28%),
+              0 7px 0 hsl(223, 100%, 25%),
+              0 8px 0 hsl(223, 100%, 23%),
+              0 9px 0 hsl(223, 100%, 20%),
+              0 10px 0 hsl(223, 100%, 15%),
+              0 11px 0 hsl(223, 100%, 10%),
+              0 12px 0 hsl(223, 100%, 8%),
+              0 13px 0 hsl(223, 100%, 3%);
+}
+
+.button-3d-2:active{
+  top: 2px;
+  box-shadow: inset 0 1px 0 hsl(223, 100%, 50%),
+              0 2px 0 hsl(223, 100%, 36%),
+              0 3px 0 hsl(223, 100%, 30%),
+              0 4px 0 hsl(223, 100%, 20%),
+              0 5px 0 hsl(223, 100%, 15%),
+              0 6px 0 hsl(223, 100%, 10%),
+              0 7px 0 hsl(223, 100%, 8%);
+}

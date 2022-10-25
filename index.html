@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>浴淋鸡1</title>
+  <link rel="stylesheet" href="./static/css/start.css">
+</head>
+
+<body class="hjo">
+  <div class="hhh">
+    <button class="button-3d-2" onclick="func()">开始游戏</button>
+    <button onclick="playsong()" style="width: 200px;height: 200px;opacity: 0;">播放</button>
+  </div>
+  <audio src="./voice/dtl.flac" id="song"></audio>
+</body>
+<script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+<script>
+function func() {
+  // document.getElementById("voice").play();
+  window.location.href = './pick.html'
+}
+
+function playsong() {
+  document.getElementById('song').play();
+}
+</script>
